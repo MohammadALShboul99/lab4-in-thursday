@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,63 +17,63 @@ class Myshboul extends StatelessWidget {
         drawer: Drawer(),
         body: Container(
           decoration: BoxDecoration(
-              gradient: LinearGradient(colors: [Colors.white54, Colors.blue])),
+              gradient: LinearGradient(colors: [Colors.white70, Colors.blue])),
           child: Column(
             children: [
               Container(
-                height: 280,
                 width: double.infinity,
+                height: 265,
                 decoration: BoxDecoration(
                   image: DecorationImage(
                       image: NetworkImage(
                           "https://th.bing.com/th/id/OIP.OR5ZO33Is_Bro8tL2VHlQQHaE8?w=263&h=180&c=7&r=0&o=5&pid=1.7"),
-                      fit: BoxFit.fill),
+                      fit: BoxFit.fitWidth),
                 ),
+              ),
+              SizedBox(
+                height: 30,
               ),
               Row(
                 children: [
-                  SizedBox(
-                    width: 10,
-                  ),
                   Container(
                     color: Colors.cyan,
                     child: Card(
                       child: Text(
-                        "toto",
+                        " toto ",
                         style: TextStyle(fontSize: 25, color: Colors.pink),
                       ),
                     ),
                   ),
                   SizedBox(
-                    width: 33,
+                    width: 70,
                     height: 70,
                   ),
                   Container(
-                    color: Colors.grey,
+                    color: Colors.red,
                     child: Card(
                       child: Text(
                         "1month",
-                        style: TextStyle(fontSize: 20, color: Colors.orange),
+                        style: TextStyle(fontSize: 25, color: Colors.orange),
                       ),
                     ),
                   ),
                   SizedBox(
-                    width: 33,
+                    width: 60,
                     height: 70,
                   ),
                   Container(
-                    color: Colors.grey,
+                    color: Colors.green,
                     child: Card(
                       child: Text(
                         "Female",
-                        style: TextStyle(fontSize: 20, color: Colors.blue),
+                        style: TextStyle(fontSize: 25, color: Colors.blue),
                       ),
                     ),
                   ),
                 ],
               ),
               SizedBox(
-                height: 55,
+                height: 40,
               ),
               Container(
                 width: double.infinity,
@@ -87,43 +85,43 @@ class Myshboul extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(
+                height: 20,
+              ),
               Row(
                 children: [
-                  SizedBox(
-                    width: 10,
-                  ),
                   Container(
-                    color: Colors.grey,
+                    color: Colors.cyan,
                     child: Card(
                       child: Text(
-                        "lili",
+                        " lili ",
                         style: TextStyle(fontSize: 25, color: Colors.pink),
                       ),
                     ),
                   ),
                   SizedBox(
-                    width: 33,
+                    width: 70,
                     height: 70,
                   ),
                   Container(
-                    color: Colors.grey,
+                    color: Colors.red,
                     child: Card(
                       child: Text(
                         "1month",
-                        style: TextStyle(fontSize: 20, color: Colors.orange),
+                        style: TextStyle(fontSize: 25, color: Colors.orange),
                       ),
                     ),
                   ),
                   SizedBox(
-                    width: 50,
+                    width: 60,
                     height: 70,
                   ),
                   Container(
-                    color: Colors.grey,
+                    color: Colors.green,
                     child: Card(
                       child: Text(
                         "Female",
-                        style: TextStyle(fontSize: 20, color: Colors.blue),
+                        style: TextStyle(fontSize: 25, color: Colors.blue),
                       ),
                     ),
                   ),
